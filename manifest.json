@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "Chrome Tab Control",
+	"version": "1.0.0",
+	"browser_action": {
+		"default_title": "Tab Control"
+	},
+	"description": "Limiting your tabs would allow you to be more focued on one thing instead of doing tens of things at a time.",
+	"background": {
+		"scripts": ["background.js"]
+	},
+    "icons": {
+        "128": "icon_128.png"
+    },
+	"permissions": ["tabs"]	
+}
